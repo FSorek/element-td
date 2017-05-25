@@ -29,8 +29,11 @@ Quick list of the planned main features(more detailed explanation for each point
 
 # Currently in progress
 Main focus:
+
 Less important changes:
+
 Late TO-DO list:
+
 
 # IMPORTANT NOTES
 Attention! The game was going through MAJOR changes in the core mechanics of the game, meaning some areas of the game might be causing errors, lacking content or not working at all! I'm trying to keep it to a bare minimum but i cannot guarantee it as I might've missed something. If you notice any errors please mail them to me at okito122@gmail.com with a detailed description of how you casued the error or what you think might have caused it. Any kind of detail will be helpful.
