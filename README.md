@@ -2,7 +2,9 @@
 Tower Defense Unity project
 
 ##########################################################
+
 This is a game I'm currently working on. Most of the things in this repository are entirely made by me, with a few exceptions that I needed to speed up the process (mainly sounds, a few 3D models and a bunch of 2D images and textures). I'm working on this project alone thus it's somewhat slow development, but I'm motivated to finish this project or have it reach a moment where it's fully playable but might be lacking visual enchancements in some areas.
+
 ##########################################################
 
 You can download the newest version of the game by going to the link below. Please read the notes under the link.
