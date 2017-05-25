@@ -15,15 +15,25 @@ I was inspired by old Warcraft 3 community maps made by different people and bec
 # Ideas/Concepts a.k.a. what are the features?
 
 Quick list of the planned main features(more detailed explanation for each point will be added below(WIP)):
+
   • Over 60 UNIQUE towers with additional upgrade tier ( making it over 120 towers! )
+  
   • A very unique way of building your defenses! Featuring merging of the towers instead of simply upgrading them!
+  
   • Different approach to a life system (win/lose conditions)
+  
   • Upgrades
+  
   • Artifacts (very impactful upgrades that can change the way something works)
+  
   • A slightly complex combat/damage mechanics ( 6 damage types, 4 armor types + shields + boss armor [so 6 total])
+  
   • Multiple Game Modes
+  
   • Enemies with many different abilities and mechanics
+  
   • Many different status effects ( poison, slow, burning etc.)
+  
 
 # What's already done?
 
