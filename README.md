@@ -18,11 +18,11 @@ Quick list of the planned main features(more detailed explanation for each point
 
   • Over 60 UNIQUE towers with additional upgrade tier ( making it over 120 towers! )
   
-  • A very unique way of building your defenses! Featuring merging of the towers instead of simply upgrading them!
+  • A very unique way of building your defenses! Featuring merging of the towers instead of just upgrading them!
   
   • Different approach to a life system (win/lose conditions)
   
-  • Upgrades
+  • Tower Upgrades
   
   • Artifacts (very impactful upgrades that can change the way something works)
   
@@ -34,19 +34,59 @@ Quick list of the planned main features(more detailed explanation for each point
   
   • Many different status effects ( poison, slow, burning etc.)
   
+  • More surprises.. :)
+  
 
 # What's already done?
 
-# Currently in progress
-Main focus:
+  • All tower prefabs ( most of them still need a model )
+  
+  • Merging and upgrade system
+  
+  • Tower upgrades researching
+  
+  • All the damage mechanics
+  
+  • Planned out whole list of enemies and towers
+  
+  • Status effects
+  
+  • Enemy special abilities
+  
+  • To keep the list shorter -> the game is somewhat playable, meaning I have the basics done
+  
 
-Less important changes:
+
+# Currently in progress
+Main focus: Balancing / Setting up towers and enemies || Tower models, projectiles, particle effects.
+
+Secondary changes: 
+
+  • QoL ( Improve visibility of status effects, re-do/fix UI ) 
+
+  • re-implement the upgrade/research system(currently turned off) 
+
+  • new life system called 'Corruption Points' that adds more depth to the game 
+  
+  • a tutorial screen ( as soon as balancing and new UI is done )
 
 Late TO-DO list:
 
+  • More enemy models
+  
+  • Map decorations
+  
+  • Replacing all placeholders
+  
+  • Improving the visual side of the game
+  
+  • Optimisation
+  
+  • A proper menu with options panel etc.
+  
 
 # IMPORTANT NOTES
-Attention! The game was going through MAJOR changes in the core mechanics of the game, meaning some areas of the game might be causing errors, lacking content or not working at all! I'm trying to keep it to a bare minimum but i cannot guarantee it as I might've missed something. If you notice any errors please mail them to me at okito122@gmail.com with a detailed description of how you casued the error or what you think might have caused it. Any kind of detail will be helpful.
+Attention! The game was going through MAJOR changes in the core mechanics of the game, meaning some areas of it might be causing errors, lacking content or not working at all! I'm trying to keep it to a bare minimum but i cannot guarantee it as I might've missed something. If you notice any errors please mail them to me at okito122@gmail.com with a detailed description of how you casued the error or what you think might have caused it. Any kind of detail will be helpful.
 
 # Game Download Link
 Dropbox:
