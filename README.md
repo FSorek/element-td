@@ -58,7 +58,8 @@ Quick list of the planned main features(more detailed explanation for each point
 
 
 # Currently in progress
-Main focus: Balancing / Setting up towers and enemies || Tower models, projectiles, particle effects.
+ <b> Main focus: </b>
+ • Balancing / Setting up towers and enemies || Tower models, projectiles, particle effects.
 
 Secondary changes: 
 
