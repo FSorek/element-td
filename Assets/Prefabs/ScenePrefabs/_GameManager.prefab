@@ -1,0 +1,459 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000014206938896}
+  m_IsPrefabParent: 1
+--- !u!1 &1000014206938896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000010562859918}
+  - component: {fileID: 114000011305196608}
+  - component: {fileID: 114000010793203978}
+  - component: {fileID: 114000011648530600}
+  - component: {fileID: 114000012988340668}
+  - component: {fileID: 114000011016142886}
+  - component: {fileID: 114000013204676092}
+  - component: {fileID: 82630684123276960}
+  - component: {fileID: 114690628608451110}
+  - component: {fileID: 114190094314039778}
+  - component: {fileID: 114021869156459734}
+  - component: {fileID: 114444148690827542}
+  m_Layer: 0
+  m_Name: _GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010562859918
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014206938896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82630684123276960
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014206938896}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: eb7eaaf567b086d4180af8a84a92849e, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.2
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 0
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114000010793203978
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014206938896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a80228c98b6042489bf085b608d5e03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldAmountUI: {fileID: 0}
+  ResearchPointsAmountUI: {fileID: 0}
+--- !u!114 &114000011016142886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014206938896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a18aaffd8bb840041b39b849e12fc173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  escMenu: {fileID: 0}
+  tooltip: {fileID: 0}
+  UpgradeSelectionPanel: {fileID: 0}
+--- !u!114 &114000011305196608
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014206938896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c3ddacf812d8d54ca4bbd1d5a2f6754, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextW0: {fileID: 0}
+  nextW1: {fileID: 0}
+  nextW2: {fileID: 0}
+  nextW3: {fileID: 0}
+  timer: {fileID: 0}
+  spawnPoint: {fileID: 0}
+  SpawnEffect: {fileID: 1000010468196134, guid: 4a724b5f6afa5284cbca3b5c1a0d616b,
+    type: 2}
+  timeToFirstWave: 45
+  timeBetweenWaves: 15
+  waves:
+  - name: 1. Light
+    enemy: {fileID: 402164, guid: bfdeff7b32261384ea802c5f645a13f9, type: 2}
+    spawnCount: 40
+    enemiesPerSpawn: 1
+    timeBetweenSpawns: 0.75
+    DelayNextWave: 0
+  - name: 2. Light
+    enemy: {fileID: 402164, guid: c7a74a07f7cd39b42b60d16652f2e261, type: 2}
+    spawnCount: 25
+    enemiesPerSpawn: 2
+    timeBetweenSpawns: 1
+    DelayNextWave: 0
+  - name: 3. Light
+    enemy: {fileID: 402164, guid: 394951d82e154fc4389c8ed703628067, type: 2}
+    spawnCount: 20
+    enemiesPerSpawn: 2
+    timeBetweenSpawns: 1.4
+    DelayNextWave: 0
+  - name: 4. Unarmored
+    enemy: {fileID: 402164, guid: 9aa0f92571e6f30499a9faf2a7b25597, type: 2}
+    spawnCount: 45
+    enemiesPerSpawn: 1
+    timeBetweenSpawns: 1
+    DelayNextWave: 0
+  - name: 5. Heavy
+    enemy: {fileID: 402164, guid: 8bedf1e3167a8744bb4ff54948a99588, type: 2}
+    spawnCount: 30
+    enemiesPerSpawn: 1
+    timeBetweenSpawns: 1.2
+    DelayNextWave: 0
+  - name: 6. Air
+    enemy: {fileID: 402164, guid: de22e604a435e37448815a9a2f8dc8ff, type: 2}
+    spawnCount: 20
+    enemiesPerSpawn: 2
+    timeBetweenSpawns: 1.75
+    DelayNextWave: 0
+  - name: 7. Unarm-Dash
+    enemy: {fileID: 402164, guid: a0717ab8793b82a4d9229b7734fe726a, type: 2}
+    spawnCount: 20
+    enemiesPerSpawn: 3
+    timeBetweenSpawns: 2
+    DelayNextWave: 0
+  - name: 8. Light-BL
+    enemy: {fileID: 402164, guid: 9689213830f522c49aebfad5767d2e21, type: 2}
+    spawnCount: 20
+    enemiesPerSpawn: 2
+    timeBetweenSpawns: 1.4
+    DelayNextWave: 0
+  - name: 9. Heavy
+    enemy: {fileID: 4901991584784802, guid: e48a82fb8c3455d4993a7e9a388392a6, type: 2}
+    spawnCount: 30
+    enemiesPerSpawn: 2
+    timeBetweenSpawns: 1
+    DelayNextWave: 0
+  - name: 10. 1 - Boss
+    enemy: {fileID: 402164, guid: 2a19d447b8fcd8a43ab5dd42548d9215, type: 2}
+    spawnCount: 1
+    enemiesPerSpawn: 1
+    timeBetweenSpawns: 0
+    DelayNextWave: 90
+  - name: 11. 1 - Boss
+    enemy: {fileID: 4795920088146710, guid: 27d8f5c868c71c149bcdb4eeb14c9422, type: 2}
+    spawnCount: 1
+    enemiesPerSpawn: 1
+    timeBetweenSpawns: 0
+    DelayNextWave: 0
+  - name: 12. 1 - Boss
+    enemy: {fileID: 4447961785669924, guid: 78a053535e1263343b1d26094d2a7dd0, type: 2}
+    spawnCount: 1
+    enemiesPerSpawn: 1
+    timeBetweenSpawns: 0
+    DelayNextWave: 0
+  - name: 13. 1 - Boss
+    enemy: {fileID: 402164, guid: b5fcbced9eb4dfb489993e61f890f0e0, type: 2}
+    spawnCount: 1
+    enemiesPerSpawn: 1
+    timeBetweenSpawns: 0
+    DelayNextWave: 0
+  - name: 14. 1 - Boss
+    enemy: {fileID: 4435585917222262, guid: 8b88cdc16fac2a146ba7ac569bebaadf, type: 2}
+    spawnCount: 1
+    enemiesPerSpawn: 1
+    timeBetweenSpawns: 0
+    DelayNextWave: 0
+  - name: 15. 1 - Boss
+    enemy: {fileID: 4077888131995232, guid: 6efd7c3611807d4418c8480a4fb25ff3, type: 2}
+    spawnCount: 1
+    enemiesPerSpawn: 1
+    timeBetweenSpawns: 0
+    DelayNextWave: 0
+  - name: 16. 1 - Boss
+    enemy: {fileID: 4440870963221080, guid: 43385cdcbc07b874e9e3f1a73a8d3942, type: 2}
+    spawnCount: 1
+    enemiesPerSpawn: 1
+    timeBetweenSpawns: 0
+    DelayNextWave: 0
+  - name: 17. 1 - Boss
+    enemy: {fileID: 4547218731302092, guid: bf3795e29165c4a47b04d4c281248f02, type: 2}
+    spawnCount: 1
+    enemiesPerSpawn: 1
+    timeBetweenSpawns: 0
+    DelayNextWave: 0
+  - name: 18. 1 - Boss
+    enemy: {fileID: 4610208880638140, guid: ae641514921a2dd4db2afceefba0167f, type: 2}
+    spawnCount: 1
+    enemiesPerSpawn: 1
+    timeBetweenSpawns: 0
+    DelayNextWave: 0
+  - name: 19. 1 - Boss
+    enemy: {fileID: 4134489704284780, guid: 7ff036c43cafc2140b785a642f973e24, type: 2}
+    spawnCount: 1
+    enemiesPerSpawn: 1
+    timeBetweenSpawns: 0
+    DelayNextWave: 0
+  - name: 20. 1 - Boss
+    enemy: {fileID: 4601991241135442, guid: 2f46da5f28bcf204b90fbffb5384ca31, type: 2}
+    spawnCount: 1
+    enemiesPerSpawn: 1
+    timeBetweenSpawns: 0
+    DelayNextWave: 0
+--- !u!114 &114000011648530600
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014206938896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8e25c494ea174b4f8f9a2ece4768f81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 1536
+  targetsWithStats:
+    serializedVersion: 2
+    m_Bits: 6144
+  TowersHierarchy: {fileID: 0}
+  FacilityHierarchy: {fileID: 0}
+  SelectionObj: {fileID: 409564, guid: 6afe5263485c61248af6122ee037f2ab, type: 2}
+  selected: {fileID: 0}
+  RangeVisual: {fileID: 4000010384536254, guid: 0acf24aa6d1909547a31810966a2160a,
+    type: 2}
+  hoverOverSellEffect: {fileID: 4000012127056492, guid: 19b7532eb280d7842a67a15ba4399712,
+    type: 2}
+  sellCursorTexture: {fileID: 2800000, guid: 2a8fa4d2e0b6a7b46ba172b58e05f4b6, type: 3}
+  mergeCursorTexture: {fileID: 2800000, guid: 5e6589360b9db6543903ce0ccba00ab5, type: 3}
+  fireElement: {fileID: 423002, guid: 666dfb0b5d4525a4e9174d856dfe21b3, type: 2}
+  waterElement: {fileID: 4000013450590310, guid: d6746f39a32885a4897dac412d11a52f,
+    type: 2}
+  earthElement: {fileID: 4000012493614512, guid: d1bcd94360641594ea3ad56c14f6b98e,
+    type: 2}
+  airElement: {fileID: 4000013210332906, guid: c7d2fd42f54c39e469e151b4d03214b5, type: 2}
+  deathElement: {fileID: 4482558730471602, guid: 6beef8dbe6cb43645b7e0d5ad0733391,
+    type: 2}
+  lifeElement: {fileID: 4221028337623774, guid: 84bbb2ea161eb1e4cbbd580551f849e1,
+    type: 2}
+  researchFacility: {fileID: 4686896478911442, guid: 6aaf62d35e8e801429399fb228420d31,
+    type: 2}
+  TotalPrices: 64000000bc020000e803000008070000f00a000030110000
+  UpgradePrices: c8000000900100009001000020030000e803000040060000
+  towerNameText: {fileID: 0}
+  TypeImage: {fileID: 0}
+  tierTextUI: {fileID: 0}
+  fireRateTextUI: {fileID: 0}
+  nodeMaterial: {fileID: 2100000, guid: 837e9b2c5d4337746a59884bc9a4ef61, type: 2}
+  UI_towerImage: {fileID: 0}
+  UI_FireDamageText: {fileID: 0}
+  UI_AirDamageText: {fileID: 0}
+  UI_WaterDamageText: {fileID: 0}
+  UI_EarthDamageText: {fileID: 0}
+  UI_DeathDamageText: {fileID: 0}
+  UI_LifeDamageText: {fileID: 0}
+  UI_MergeCost_num: {fileID: 0}
+  UI_Upgrade: {fileID: 0}
+  UI_Merge: {fileID: 0}
+  PassiveAbility01: {fileID: 0}
+  SpecialAbility01: {fileID: 0}
+  sellingMode: 0
+  mergeSelectTowerMode: 0
+  lockSelecting: 0
+--- !u!114 &114000012988340668
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014206938896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c66c13f0c452a440a5eddd4e978662d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxUnits: 70
+  enemyCount: {fileID: 0}
+--- !u!114 &114000013204676092
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014206938896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f5d0dd90f7f0ad4e800dd863360bccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114021869156459734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014206938896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5815404615652db4da5dcbf7c8e3b02c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BulletsStorage: {fileID: 0}
+  Objects:
+  - Object: {fileID: 11476210, guid: b370aea49d30e2f4e8f6ad84df59e050, type: 2}
+    Amount: 20
+  - Object: {fileID: 114000010812762196, guid: e952f65f2bf506f4b9830684bb375e28, type: 2}
+    Amount: 20
+  - Object: {fileID: 11497774, guid: defb505e64d4d1843a4e5f605b305471, type: 2}
+    Amount: 20
+  - Object: {fileID: 11476588, guid: 644769c31cba9f54890285fdd5dff1b3, type: 2}
+    Amount: 20
+  - Object: {fileID: 114000012211149780, guid: 96bbaecb5c05fd14280b95432cf5bd47, type: 2}
+    Amount: 20
+  - Object: {fileID: 114000013879381814, guid: 756b55273c5e4194293fa6e84751dc1d, type: 2}
+    Amount: 20
+  - Object: {fileID: 114233895157807014, guid: 13644219e503d574699bf7f30b5af04c, type: 2}
+    Amount: 20
+  - Object: {fileID: 114150144613776454, guid: 52ce354531ca0334e9ea825508644917, type: 2}
+    Amount: 20
+--- !u!114 &114190094314039778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014206938896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b11a4cf2c9813114e9246d535ab9e4e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114444148690827542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014206938896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b5f58b9e0cc9bf4ab2e51a9ef1c18de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightEffect: {fileID: 1146743292671956, guid: 4d0ccd10394a19143901dd43c264f5d6,
+    type: 2}
+  fireElements: []
+  waterElements: []
+  airElements: []
+  earthElements: []
+  lifElements: []
+  deathElements: []
+--- !u!114 &114690628608451110
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014206938896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fbc50a31c0aec64cb87bc1c0914cee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pooledProjectile: {fileID: 0}
+  pooledAmount: 100
+  projetiles: []
