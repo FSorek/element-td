@@ -91,11 +91,14 @@ Late TO-DO list:
 <i>Attention! The game was going through MAJOR changes in the core mechanics of the game, meaning some areas of it might be causing errors, lacking content or not working at all! I'm trying to keep it to a bare minimum but i cannot guarantee it as I might've missed something. If you notice any errors please mail them to me at okito122@gmail.com with a detailed description of how you casued the error or what you think might have caused it. Any kind of detail will be helpful.</i>
 
 # Game Download Link
-Dropbox:
+Dropbox: https://www.dropbox.com/s/rczrzxmz3ubta0a/EOC.rar?dl=0
 
-NOTES:
+<b><i>NOTES: CURRENT VERSION ISSUES THAT ARE BEING WORKED ON FOR NEXT RELEASE -> MINIMAL TO NO BALANCE AT ALL, SELLING DOES NOT GIVE PROPER GOLD AMOUNT, MAP IS VERY DARK, MINOR OTHER BUGS</i></b>
 
 
 
 OLD VERSIONS:
 
+VERY EARLY / FIRST ITERATION OF THE GAME -> https://www.dropbox.com/s/0f5d31e058qac2v/ElementTDPreAlpha.rar?dl=0
+
+<b>THE ABOVE VERSION IS THE VERY FIRST SOMEWHAT PLAYABLE ITERATION, BUT THE GAME HAS CHANGED A FEW CORE MECHANICS SINCE THEN! (<i> IT DOES HOWEVER CONTAIN A FEW TUTORIAL IMAGES AND TEXT FILES THAT ARE STILL SOMEWHAT RELEVANT TO THE GAME, USE WITH 'CAUTION'</i>)</b>
